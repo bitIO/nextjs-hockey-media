@@ -1,0 +1,16 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": ["next/core-web-vitals", "prettier"],
+  "rules": {
+    "import/exports-last": "error",
+    "sort-keys":"error"
+  },
+  "settings": {
+    "react": { "version": "detect" }
+  }
+}
